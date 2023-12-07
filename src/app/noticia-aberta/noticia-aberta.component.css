@@ -1,0 +1,24 @@
+#imagemNoticia{
+    
+    height: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+#textoNoticia h1 {
+    max-width: 1000px; /* Defina a largura máxima desejada */
+    margin: 0 auto; /* Para centralizar o texto horizontalmente */
+    text-align: left; /* Alinhamento do texto à esquerda */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Opcional: adiciona reticências (...) quando o texto ultrapassar a largura máxima */
+  }
+  
+#final{
+    display: flex;
+    justify-content: space-around;
+    width: 2000px;
+}

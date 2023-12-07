@@ -163,6 +163,8 @@ import localeDE from '@angular/common/locales/de';
 import localeFR from '@angular/common/locales/fr';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { AjudaComponent } from './components/Dashboard/usuario-dashboard/usuario-ajuda/ajuda.component';
+import { NoticiasComponent } from './noticias/noticias.component';
+import { NoticiaAbertaComponent } from './noticia-aberta/noticia-aberta.component';
 
 registerLocaleData(localePT);
 registerLocaleData(localeES);
@@ -227,7 +229,9 @@ registerLocaleData(localeFR);
     SideNavComponent,
     AjudaComponent,
     UsuarioNoticiasComponent,
-    CardMensagemComponent
+    CardMensagemComponent,
+    NoticiasComponent,
+    NoticiaAbertaComponent
   ],
   imports: [
     BrowserModule,
